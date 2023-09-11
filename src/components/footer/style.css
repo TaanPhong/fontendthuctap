@@ -1,0 +1,68 @@
+#pageFooter{
+    background-color: #1d1c1c;
+    color: white;
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+}
+
+.containerFooter{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    margin: auto;
+    grid-gap: 32px;
+    height: 100%;
+}
+
+.introduce{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    height: 100%;
+}
+
+.introduce h3{
+    font-size: 20px;
+    color: #4b3939;
+}
+
+.introduce img{
+    width: 50px;
+    height: 50px;
+}
+
+.introduce p{
+    font-size: 13px;
+}
+
+.introduce span{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.introduce span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.introduce div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    gap: 10px;
+}
+
+.introduce div:hover{
+    cursor: pointer;
+}
+
+.introduce div img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

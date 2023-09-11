@@ -1,0 +1,102 @@
+.datatableproduct{
+    background: #fff;
+    border-radius: 5px;
+    
+}
+
+.datatableproduct>*{
+    padding: 10px;
+    text-align: center;
+}
+
+.action{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btnedit, .btndelete{
+    border-radius: 8px;
+    background: #fff;
+    transition: all 0.5s;
+    color: #2579f2;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btnedit:hover{
+    background: #2579f2;
+    color: #fff;
+} 
+
+.btndelete:hover{
+    background: #2579f2;
+    color: #fff;
+}
+
+.MuiDataGrid-root>*{
+    text-align: center;
+}
+
+/* ======================================================= button thêm =======================================================*/
+
+.rightTopPicNotDate{
+    display: flex;
+    background: #fff;
+    color: #2579f2;
+    border-radius: 8px;
+    border: 2px solid #000;
+    padding: 5px 10px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+} 
+
+.rightTopPicNotDate:hover{
+    cursor: pointer;
+    background: #2579f2;
+    color: #fff;
+}
+
+
+.add{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+
+/*========================= SaveProduct ================================ */
+.group-admin-input-product{
+    width: 80%;
+}
+
+.group-admin-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.group-admin-input label{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    margin-left: 4px;
+}
+
+.group-admin-input input, #text-product-description, .select-admin-product{
+    border: 1px solid #e5e5e5;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.select-admin-product option{
+    padding: 0.5rem !important;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.upload-file{
+    border: none !important;
+    padding: 5px !important;
+}

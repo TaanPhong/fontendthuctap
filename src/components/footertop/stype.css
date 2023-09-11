@@ -1,0 +1,31 @@
+.footerTop{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 100px;
+    grid-gap: 20px;
+}
+
+.footerTopItem{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    height: 300px;
+}
+
+.footerTopItem .imgFooterTop img{
+    width: 100px;
+    height: 100px;
+}
+
+.footerTopItem h2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.footerTopItem p{
+    font-size: 16px;
+}

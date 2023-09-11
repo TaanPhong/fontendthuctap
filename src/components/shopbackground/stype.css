@@ -1,0 +1,22 @@
+#shopBackground{
+    margin-top: 20px;
+}
+
+.product-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.headingShop{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.rightShop span{
+    text-decoration: underline;
+    font-size: 16px;
+    color: #998989;
+    cursor: pointer;
+}

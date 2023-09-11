@@ -1,0 +1,76 @@
+.userOrderDetail{
+    min-height: 400px;
+    background: #fff;
+}
+
+.content-userOrder{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.content-userOrder h4{
+    font-size: 21px;
+}
+
+.fe p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.headUserOrder{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.headUserOrder input{
+    padding: 0.7rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    line-height: 1.5rem;
+}
+
+.headUserOrder button{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: #2579F2;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.headUserOrder button:hover{
+    background: #326fc5;
+}
+
+.group-btn-confirm{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.btn-xacnhan, .btn-thoat{
+    padding: 0.7rem 1.2rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.btn-xacnhan{
+    background: #2579F2;
+}
+
+.btn-thoat{
+    background: #ED1C24;
+}

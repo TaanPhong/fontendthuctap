@@ -1,0 +1,28 @@
+.infor-permission{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    font-size: 17px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.icon-infor-permission{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    color: #2579f2;
+    transition: all 0.5s;
+}
+
+.icon-infor-permission:hover{
+    background-color: #2579f2;
+    color: #fff;
+    cursor: pointer;
+}

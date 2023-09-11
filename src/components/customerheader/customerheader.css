@@ -1,0 +1,140 @@
+.headerCustomer{
+    height: 100px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.15);
+    border: none;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 900;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerCustomer .heardercontainer{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.left-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-header>img{
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.topnav>ul{
+    list-style: none;
+    display: flex;
+}
+
+
+.topnav>ul>li{
+    margin: 0;
+    display: block;
+    float: left;
+}
+
+.topnav>ul>li>a{
+    text-decoration: none;
+    color: #142F43;
+    font-size: 20px;
+    padding: 39px 12px 15px;
+    font-weight: 600;
+}
+
+.topnav>ul>li>a:hover{
+    color: #FF5B6A;
+}
+
+
+.topnav>ul>li>a:active{
+    color: #FF5B6A;
+}
+
+.activeLink{
+    text-decoration: underline;
+    color: #FF5B6A;
+}
+
+.findCustomer{
+    display: flex;
+    margin-left: 2.5rem;
+}
+
+.findCustomerProduct{
+    width: auto;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    gap: 5px;
+}
+
+.inputCustomer{
+    padding: 10px 16px;
+    line-height: 20px;
+    width: 20rem;
+    border: none;
+}
+
+.findCustomerProduct>input:focus{
+    border: none;
+}
+
+.iconCustomer{
+    font-size: 2.3rem !important;
+    cursor: pointer;
+    color: rgb(102, 102, 223);
+    font-weight: 500;
+}
+
+.right-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.right-content>div{
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.right-content div span{
+    position: absolute;
+    top: -10px;
+    right: 0;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: #e94560;
+    font-size: 12px;
+    color: #fff;
+}
+
+.iconRight-content{
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}

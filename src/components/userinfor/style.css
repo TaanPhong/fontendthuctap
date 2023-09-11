@@ -1,0 +1,130 @@
+.userInforDetail{
+    min-height: 400px;
+    background: #fff;
+    padding: 2.5rem;
+}
+
+.containerUserDetail{
+    display: flex;
+}
+
+.headerUserInfor{
+    margin: auto;
+}
+
+.userInforDetai h4{
+    font-size: 21px;
+    font-weight: bold;
+    color: #000;
+}
+
+.content-infor{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.headerUserInfor, .avatarInfor{
+    flex: 1;
+}
+.feif{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.deif{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.avatarInfor{
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.avatarInfor img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.btn-modifyAvatar{
+    padding: 1rem;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid #d1d5db;
+    background: #fff;
+    border-radius: 8px;
+    color: #2579f2;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.btn-modifyAvatar:hover{
+    background-color: #2579f2;
+    color: #fff;
+}
+
+.preson{
+    width: 40%;
+}
+
+.group-input input{
+    padding: 0.5rem 1.2rem;
+    line-height: 1.7rem;
+    background: #fff;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.btn-LuuThayDoi{
+    border: none;
+    padding: 14px;
+    margin-top: 14px;
+    width: 40%;
+    border-radius: 8px;
+    background: #2579f2;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.btn-LuuThayDoi:hover{
+    background: #1b91ebdb;
+}
+
+#gender{
+    width: 100%;
+    padding: 0.7rem 1.2rem;
+    line-height: 1.7rem;
+    background: #fff;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+/*  upload file */
+.container-update-infor{
+    text-align: center;
+}
+
+.img-face{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-face img{
+    border: 1px solid #e5e5e5;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border-radius: 50%;
+}

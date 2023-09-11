@@ -1,0 +1,161 @@
+.MainDash{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    gap: 1rem;
+}
+
+@media screen and (max-width:1200px) {
+    .MainDash{
+        justify-content: flex-start;
+        margin-top: 2rem;
+    }
+}
+
+.topPic{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 7rem;
+    background: white;
+    align-items: center;
+    padding: 0 2rem;
+    border-radius: 8px;
+    border: 1px solid #e5e5e5;
+}
+
+.leftTopPic{
+    display: flex;
+    align-items: center;
+}
+
+.findBy{
+    display: flex;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+}
+
+.findBy input{
+    line-height: 1.3rem;
+    padding: 0.7rem 1rem;
+    background: none;
+    border: none;
+    width: 13rem;
+}
+
+.iconTopPic{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin:0 10px;
+}
+
+
+.label-date{
+    color: #b29494;
+}
+
+.rightTopPic{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.group-admin-date{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.admin-input-date{
+    height: 1.3rem;
+    width: 10rem;
+    padding: 1.2rem;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #e5e5e5;
+}
+
+.filter-admin{
+    background: #2579f2;
+    color: #fff;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*  Table */
+
+.Table{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px ; 
+}
+
+.Table h3{
+    font-size: 25px;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.MuiTableRow-root>*{
+    padding: 10px;
+}
+
+.MuiTableRow-root.MuiTableRow-head >*{
+    font-weight: bold !important;
+}
+
+.MuiTableRow-root.rowbody:hover{
+    background: #ccc;
+}
+
+.Table:first-child{
+    border-radius: 0.7rem !important;
+}
+
+.status{
+    padding: 8px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+
+.detail{
+    color: #00b5ff !important;
+    cursor: pointer;
+}
+
+.detail:hover{
+    color: #e28b11 !important;
+}
+
+.detailIcon{
+    width: 2rem;
+    height: 2rem;
+}
+
+@media screen and (max-width:1200px) {
+    .Table{
+        width: 170%;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Table{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 23rem;
+    }
+  }

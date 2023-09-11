@@ -1,0 +1,36 @@
+.span-note{
+    color: #2579F2 !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+}
+
+.span-note:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.detail-note{
+    padding: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    text-align: center;
+    border: 0.5px solid #ED1C24;
+    border-radius: 2px;
+}
+
+
+.detail-note img{
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.detail-note-span{
+    color: #000 !important;
+    font-weight: 500;
+    font-size: 17px;
+}
+

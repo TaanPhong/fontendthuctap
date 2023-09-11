@@ -1,0 +1,35 @@
+.ExpandedCard{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: end;
+    min-height: 600px;
+}
+
+.ExpandedCard label{
+    align-self: 'flex-end';
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.chartContainer{
+    width: 80%;
+    margin: auto;
+    background: linear-gradient(rgb(248, 212, 154) -146.42%, rgb(255 202 113) -46.42%);
+    box-shadow: 0px 10px 20px 0px #e0c6f5;
+}
+
+.detail-statistical{
+    align-self: flex-end;
+    text-decoration: underline;
+    color: #2579f2;
+    transition: all 0.5s ease;
+}
+
+.detail-statistical:hover{
+    cursor: pointer;
+    color: #87b1ed;
+}
